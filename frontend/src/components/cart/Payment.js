@@ -184,14 +184,14 @@ const options = {
 
                         </button>
                         
-                        <Fragment>
+                        {/* <Fragment>
                             <button 
                             id="pay_btn"
                             type="submit"
                             className="btn btn-block py-4"
                             onClick={()=>checkout.show({amount:orderInfo.totalPrice*100})}>Pay Vai Khalti- NRs. - {orderInfo.totalPrice} /-
                                 </button> 
-                            </Fragment>
+                            </Fragment> */}
 
                     </form>
                 </div>
