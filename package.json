@@ -8,7 +8,7 @@
     "dev": "SET NODE_ENV=DEVELOPMENT& nodemon backend/server",
     "prod": "SET NODE_ENV=PRODUCTION& nodemon backend/server",
     "seeder": "node backend/utils/seeder.js",
-    "heroku-postbuild" : "NPM_CONFIG_PRODUCTION=false && npm install --prefix frontend && npm run build --prefix frontend"
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false && npm install --prefix frontend && npm run build --prefix frontend"
   },
   "author": "Sagar Kumar Sah Kanu",
   "license": "ISC",
@@ -22,7 +22,7 @@
     "express-fileupload": "^1.4.0",
     "jsonwebtoken": "^8.5.1",
     "khalti-checkout-web": "^2.2.0",
-    "mongoose": "^6.3.4",
+    "mongoose": "^6.12.9",
     "nodemailer": "^6.7.5",
     "stripe": "^9.11.0",
     "validator": "^13.7.0"
